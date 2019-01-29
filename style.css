@@ -1,0 +1,63 @@
+* {
+    outline:none;
+    transition-duration:500ms;
+    box-sizing:border-box;
+    background-size:cover;
+    background-repeat:no-repeat;
+    user-select:none;
+    font-family:'Nunito',sans-serif;
+}
+html, body {
+    margin:0 auto;
+    height:100%;
+}
+body {
+    background-image:url("content/background");
+    background-position:center;
+}
+.bottom-button {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:10px;
+    border-radius:15px;
+    height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.6em;
+    color:white;
+    font-weight:bold;
+    backdrop-filter:blur(5px);
+    text-transform:uppercase;
+    background-color:rgba(255,255,255,.2);
+}
+.window {
+    position:fixed;
+    top:100%;
+    left:0;
+    right:0;
+    bottom:100%;
+    backdrop-filter:blur(5px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition-duration:200ms !important;
+    flex-direction:column;
+    font-size:1.1em;
+    color:white;
+}
+.window-display {
+    width:80%;
+    height:80%;
+    background-color:white;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    color:#113355;
+    font-size:0.6em;
+    position:absolute;
+    flex-direction:column;
+}
